@@ -1,0 +1,28 @@
+.header{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    width: "relative";
+    border-bottom: black 2px solid;
+    padding-bottom: 25px;
+}
+img{
+    width: 30%;
+    margin: 0.8%;
+    margin-left: 1.9%;
+    position: relative;
+}
+.holder{
+    float: left;
+}
+.cat{
+    position: relative;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40%;
+    border-bottom: solid 1px black;
+    padding-bottom: 0.7%;
+}

@@ -1,0 +1,82 @@
+.navgation{
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.Profile-picture{
+    border-radius: 100%;
+    float: left;
+}
+.About{
+    margin-left: 20%;
+    margin-top: 6%;
+}
+.hobbies-and-interset{
+    clear: both;
+    margin-top: 12%;
+}
+.date-job{
+    margin-right: 90px;
+}
+.job-date{
+    margin-bottom: 3px;
+}
+.place{
+    margin-left: 10px;
+}
+.skills{
+    float: left;
+    margin-top: 0px;
+    margin-right: 2%;
+    line-height: 30px;
+}
+.ratings{
+    line-height: 31px;
+}
+.contact-tittle{
+    font-weight: bold;
+    font-size: x-large;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding: 10px;
+}
+.contact-form{
+    margin-top: 8%;
+    margin-left: 15px;
+    clear: both;
+}
+.form1{
+    /* margin: 10px; */
+    float: left;
+}
+label{
+    margin-right: 35px;
+    width: max-content;
+    align-items: top;
+}
+.form-input{
+    padding: 8px;
+}
+.submit1{
+    margin-left: 500px;
+    width: 20px;
+}
+iframe{
+    padding-top: 20px;
+}
+.map{
+    padding-left: 1000px;
+    margin-top: 10px;
+    
+}
+footer{
+    margin-top: 5%;
+    padding-top: 15px;
+    text-align: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+.copy{
+    /* border-top: solid; */
+}
