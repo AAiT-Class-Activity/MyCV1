@@ -1,29 +1,52 @@
-.navgation{
+/* .navgation{
     border-top: black solid 1px;
     border-bottom: black solid 1px;
     margin-bottom: 20px;
     padding: 15px;
+} */
+header{
+    /* position: fixed; */
+    width: 100%;
 }
+nav{
+    /* border: solid 2px; */
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li:hover{
+    background-color: pink;
+}
+
+
+
+
+
 .Profile-picture{
     border-radius: 100%;
+    padding: 25px;
     float: left;
 }
 .About{
     margin-left: 20%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 .hobbies-and-interset{
     clear: both;
-    margin-top: 12%;
+    margin-top: 2%;
 }
 .date-job{
-    margin-right: 90px;
+    margin-right: 110px;
 }
 .job-date{
     margin-bottom: 3px;
-}
-.place{
-    margin-left: 10px;
 }
 .skills{
     float: left;
@@ -72,7 +95,7 @@ iframe{
 }
 footer{
     margin-top: 5%;
-    padding-top: 15px;
+    padding: 2px;
     text-align: center;
     border-top: solid 1px;
     border-bottom: solid 1px;

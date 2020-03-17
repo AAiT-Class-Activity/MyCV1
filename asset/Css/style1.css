@@ -1,12 +1,29 @@
-.header{
-    text-transform: uppercase;
+header{
+    width: 100%;
+}
+nav{
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 10px 3px;
     font-size: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li:hover{
+    background-color: pink;
+}
+.header1{
+    text-transform: uppercase;
+    font-size: 25px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     width: "relative";
     border-bottom: black 2px solid;
-    padding-bottom: 25px;
 }
 img{
     width: 30%;
@@ -25,4 +42,11 @@ img{
     margin-left: 40%;
     border-bottom: solid 1px black;
     padding-bottom: 0.7%;
+}
+footer{
+    clear: both;
+    margin-top: 10%;
+    text-align: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
 }
