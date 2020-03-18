@@ -24,7 +24,9 @@ nav>ul>li>a{
 nav>ul>li:hover{
     background-color: pink;
 }
-
+a{
+    text-decoration: none;
+}
 
 
 
