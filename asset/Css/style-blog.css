@@ -24,6 +24,7 @@ section{
 .tittle{
     font-size: 27px;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 .date{
