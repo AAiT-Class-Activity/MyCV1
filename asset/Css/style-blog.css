@@ -1,18 +1,16 @@
 /* External Css */
 /* SECTION SELECTOR */
 body{
-    background-color: skyblue;
-    /* border: solid 10px lightgray; */
     margin: 15px;
 }
 header{
-    background-color: rgba(211, 37, 52, 0.6);
+    background-color: rgba(231, 229, 230, 0.904);
     position: fixed;
     width: 100%;
 }
 
 section{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     padding: 5px 30px;
     /* margin-top: 50px; */
     position: relative;
@@ -22,7 +20,7 @@ section{
     line-height: 25px;
 }
 .tittle{
-    font-size: 27px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: capitalize;
 }
@@ -39,7 +37,7 @@ nav>ul>li>a{
     text-decoration: none;
 }
 nav>ul>li:hover{
-    background-color: mintcream;
+    text-decoration: underline;
 }
 img{
     border-radius: 100%;
@@ -48,4 +46,12 @@ img{
 }
 #clear{
     clear: left;
+}
+p{
+    font-size: 25px;
+    line-height: 35px;
+}
+.ti{
+    font-weight: bold;
+    text-transform: uppercase;
 }
