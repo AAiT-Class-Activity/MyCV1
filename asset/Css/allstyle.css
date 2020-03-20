@@ -4,12 +4,21 @@ body{
 }
 header{
     width: 100%;
-    background-color: rgba(231, 229, 230, 0.904);
+    background-color: rgba(238, 236, 237, 0.959);
     position: fixed;
+    z-index: 1;
 }
 nav{
     border-top: solid 1px;
     border-bottom: solid 1px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+@media only screen and (min-width: 768px){
+    nav{
+        flex-direction: row;
+    }
 }
 nav>ul>li{
     display: inline-block;
@@ -17,6 +26,11 @@ nav>ul>li{
     font-size: 20px;
 }
 nav>ul>li>a{
+    flex: 1;
+    text-align: center;
+    margin: 0.25em;
+    padding: 0.25em;
+    
     text-decoration: none;
 }
 nav>ul>li:hover{

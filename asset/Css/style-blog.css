@@ -3,12 +3,6 @@
 body{
     margin: 15px;
 }
-header{
-    background-color: rgba(231, 229, 230, 0.904);
-    position: fixed;
-    width: 100%;
-}
-
 section{
     font-family: 'Times New Roman', Times, serif;
     padding: 5px 30px;
@@ -27,25 +21,6 @@ section{
 
 .date{
     text-transform: uppercase;
-}
-nav>ul>li{
-    display: inline-block;
-    padding: 10px 3px;
-    font-size: 20px;
-}
-nav>ul>li>a{
-    text-decoration: none;
-}
-nav>ul>li:hover{
-    text-decoration: underline;
-}
-img{
-    border-radius: 100%;
-    float: left;
-    margin-right: 50px;
-}
-#clear{
-    clear: left;
 }
 p{
     font-size: 25px;
